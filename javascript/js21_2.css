@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+#btn {
+  background-color: antiquewhite;
+  border: 1px solid darkgoldenrod;
+}
+
+input {
+  width: 100px;
+  height: 18px;
+  border: 1px solid darkgoldenrod;
+}
+
+#result {
+  font-size: 50px;
+  color:goldenrod;
+}

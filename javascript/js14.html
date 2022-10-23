@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>날짜 함수</title>
+</head>
+<body>
+  <h1>날짜 함수</h1>
+  <script>
+    var date = new Date(2022, 8, 25);
+    var str_day = ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'];
+    document.write(date);
+    document.write('<br>');
+    document.write(date.toLocaleString());
+    document.write('<br>');
+    document.write(date.getDay());
+    document.write('<br>');
+    // 요일을 한글로 출력하기
+    document.write(str_day[date.getDay()]);
+  </script>
+</body>
+</html>

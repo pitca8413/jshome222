@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>배열</title>
+</head>
+<body>
+  <h1>배열</h1>
+  <script>
+    var food = ['김밥', '돈까스', '라면', '햄버거', '자장면', '불고기'];
+
+    document.write('<p>' + food[2] + '</p>');
+    document.write('<p>' + food[3] + '</p>');
+    document.write('----------------------');
+
+    // 음식 모두 출력하기
+    for(i = 0; i < 6; i++) {
+      document.write('<p>' + (i + 1) + '.' + food[i] + '</p>');
+    }
+  </script>
+</body>
+</html>
