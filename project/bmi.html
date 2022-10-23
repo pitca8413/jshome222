@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 체질량지수</title>
+  <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+  <div id="frame">
+    <img src="bmi.png" alt="운동하는사람">
+    <h1>나의 체질량지수</h1>
+    <table>
+      <tr>
+        <td>키</td>
+        <td><input id="height" />cm</td>
+      </tr>
+      <tr>
+        <td>몸무게</td>
+        <td><input id="weight" />kg</td>
+      </tr>
+    </table>
+    <button id="btn" onclick="calc_bmi()">계산하기</button>
+    <div id="result"></div>
+  </div>
+  <script src="bmi.js"></script>
+</body>
+</html>

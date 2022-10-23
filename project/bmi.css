@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(42, 42, 54);
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#frame {
+  width: 330px;
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(26, 85, 151);
+}
+
+#btn {
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: 0px;
+}
+
+#result {
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input {
+  border: 0px;
+  border-bottom: 1px solid gray;
+}

@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: #222;
+}
+
+h1 {
+  color:rgb(22, 77, 148);
+}
+
+#frame {
+  background-color: white;
+  border-radius: 15px;
+  width: 380px;
+  border: 1px solid #777;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+#btn {
+  background-color: rgb(13, 55, 110);
+  color:bisque;
+  border: 0px;
+  padding: 5px;
+}
+
+#result {
+  background-color: rgb(245, 185, 112);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
